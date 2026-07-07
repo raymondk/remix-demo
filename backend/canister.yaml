@@ -3,4 +3,9 @@
 name: backend
 recipe:
   type: "@dfinity/motoko@v5.0.0"
-
+  configuration:
+    metadata:
+      - name: service:git:sha
+        value: $(git rev-parse HEAD)
+      - name: service:git:origin
+        value: $(git remote get-url origin)
