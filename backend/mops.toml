@@ -1,0 +1,6 @@
+[toolchain]
+moc = "1.9.0"
+
+[canisters.backend]
+main = "src/main.mo"
+candid = "backend.did"
