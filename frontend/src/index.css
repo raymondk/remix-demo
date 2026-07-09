@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   /* Theme variables (light by default) */
-  --bg: #ffffff;
+  --bg: #16a34a;
   --fg: #0f172a;
   --muted: #475569;
   --panel: #f8fafc;
@@ -15,7 +15,7 @@
   --accent-fg: #ffffff;
   --shadow: 0 1px 2px rgba(2, 6, 23, 0.08), 0 2px 6px rgba(2, 6, 23, 0.06);
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #052e16;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -77,7 +77,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0b1220;
+    --bg: #052e16;
     --fg: #e5e7eb;
     --muted: #94a3b8;
     --panel: #0f172a;
@@ -92,7 +92,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #16a34a;
   }
   a:hover {
     color: #747bff;
